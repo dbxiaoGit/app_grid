@@ -1,0 +1,37 @@
+2019-09-08 22:12:56,486 remote_connection.py _request [line:388] DEBUG POST http://127.0.0.1:4444/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "9", "appium:deviceName": "MKJNW17C19000245", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "appium:noReset": "True"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "9", "deviceName": "MKJNW17C19000245", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "noReset": "True"}}
+2019-09-08 22:12:56,487 connectionpool.py _new_conn [line:206] DEBUG Starting new HTTP connection (1): 127.0.0.1:4444
+2019-09-08 22:13:11,720 connectionpool.py _make_request [line:396] DEBUG http://127.0.0.1:4444 "POST /wd/hub/session HTTP/1.1" 200 993
+2019-09-08 22:13:11,721 remote_connection.py _request [line:440] DEBUG Finished Request
+2019-09-08 22:13:11,721 app_test.py test_something [line:66] INFO script begin wait 1s
+2019-09-08 22:13:12,723 remote_connection.py _request [line:388] DEBUG GET http://127.0.0.1:4444/wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/window/current/size {"windowHandle": "current", "sessionId": "4a7026ca-4ded-4635-aa91-a8c1118364cb"}
+2019-09-08 22:13:12,796 connectionpool.py _make_request [line:396] DEBUG http://127.0.0.1:4444 "GET /wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/window/current/size HTTP/1.1" 200 100
+2019-09-08 22:13:12,796 remote_connection.py _request [line:440] DEBUG Finished Request
+2019-09-08 22:13:12,797 app_test.py test_something [line:68] INFO <class 'dict'>
+2019-09-08 22:13:12,797 remote_connection.py _request [line:388] DEBUG GET http://127.0.0.1:4444/wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/window/current/size {"windowHandle": "current", "sessionId": "4a7026ca-4ded-4635-aa91-a8c1118364cb"}
+2019-09-08 22:13:12,863 connectionpool.py _make_request [line:396] DEBUG http://127.0.0.1:4444 "GET /wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/window/current/size HTTP/1.1" 200 100
+2019-09-08 22:13:12,864 remote_connection.py _request [line:440] DEBUG Finished Request
+2019-09-08 22:13:12,864 app_test.py test_something [line:69] INFO ['__class__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
+2019-09-08 22:13:12,865 remote_connection.py _request [line:388] DEBUG GET http://127.0.0.1:4444/wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/window/current/size {"windowHandle": "current", "sessionId": "4a7026ca-4ded-4635-aa91-a8c1118364cb"}
+2019-09-08 22:13:12,921 connectionpool.py _make_request [line:396] DEBUG http://127.0.0.1:4444 "GET /wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/window/current/size HTTP/1.1" 200 100
+2019-09-08 22:13:12,922 remote_connection.py _request [line:440] DEBUG Finished Request
+2019-09-08 22:13:12,922 app_test.py test_something [line:70] INFO dict_items([('width', 1080), ('height', 2032)])
+2019-09-08 22:13:12,922 remote_connection.py _request [line:388] DEBUG GET http://127.0.0.1:4444/wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/window/current/size {"windowHandle": "current", "sessionId": "4a7026ca-4ded-4635-aa91-a8c1118364cb"}
+2019-09-08 22:13:12,967 connectionpool.py _make_request [line:396] DEBUG http://127.0.0.1:4444 "GET /wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/window/current/size HTTP/1.1" 200 100
+2019-09-08 22:13:12,968 remote_connection.py _request [line:440] DEBUG Finished Request
+2019-09-08 22:13:12,968 remote_connection.py _request [line:388] DEBUG GET http://127.0.0.1:4444/wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/window/current/size {"windowHandle": "current", "sessionId": "4a7026ca-4ded-4635-aa91-a8c1118364cb"}
+2019-09-08 22:13:13,030 connectionpool.py _make_request [line:396] DEBUG http://127.0.0.1:4444 "GET /wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/window/current/size HTTP/1.1" 200 100
+2019-09-08 22:13:13,031 remote_connection.py _request [line:440] DEBUG Finished Request
+2019-09-08 22:13:13,031 app_test.py test_something [line:73] INFO <class 'int'>
+2019-09-08 22:13:13,031 app_test.py test_something [line:74] INFO 1019
+2019-09-08 22:13:13,031 app_test.py test_something [line:76] INFO wait 30 seconds
+2019-09-08 22:13:43,031 app_test.py test_something [line:83] INFO 当前是第0次点击，截至目前脚本执行时间为0秒
+2019-09-08 22:13:43,031 remote_connection.py _request [line:388] DEBUG POST http://127.0.0.1:4444/wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/touch/perform {"actions": [{"action": "longPress", "options": {"x": 1019, "y": 1978, "duration": 500}}, {"action": "release", "options": {}}], "sessionId": "4a7026ca-4ded-4635-aa91-a8c1118364cb"}
+2019-09-08 22:13:43,032 connectionpool.py _get_conn [line:241] DEBUG Resetting dropped connection: 127.0.0.1
+2019-09-08 22:13:45,246 connectionpool.py _make_request [line:396] DEBUG http://127.0.0.1:4444 "POST /wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/touch/perform HTTP/1.1" 200 76
+2019-09-08 22:13:45,246 remote_connection.py _request [line:440] DEBUG Finished Request
+2019-09-08 22:13:47,247 remote_connection.py _request [line:388] DEBUG POST http://127.0.0.1:4444/wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/touch/perform {"actions": [{"action": "longPress", "options": {"x": 1019, "y": 1978, "duration": 500}}, {"action": "release", "options": {}}], "sessionId": "4a7026ca-4ded-4635-aa91-a8c1118364cb"}
+2019-09-08 22:13:49,565 connectionpool.py _make_request [line:396] DEBUG http://127.0.0.1:4444 "POST /wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb/touch/perform HTTP/1.1" 500 154
+2019-09-08 22:13:49,565 remote_connection.py _request [line:440] DEBUG Finished Request
+2019-09-08 22:13:49,566 remote_connection.py _request [line:388] DEBUG DELETE http://127.0.0.1:4444/wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb {"sessionId": "4a7026ca-4ded-4635-aa91-a8c1118364cb"}
+2019-09-08 22:13:50,661 connectionpool.py _make_request [line:396] DEBUG http://127.0.0.1:4444 "DELETE /wd/hub/session/4a7026ca-4ded-4635-aa91-a8c1118364cb HTTP/1.1" 200 76
+2019-09-08 22:13:50,661 remote_connection.py _request [line:440] DEBUG Finished Request
