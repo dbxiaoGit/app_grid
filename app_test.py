@@ -47,8 +47,8 @@ class AndroidSimpleTest(unittest.TestCase):
             # 执行时不重新安装包
             'noReset': 'True',
         }
-        self.driver = webdriver.Remote('http://127.0.0.1:4444/wd/hub', desired_caps1)
-        #self.driver = webdriver.Remote('http://127.0.0.1:4444/wd/hub', desired_caps2)
+        #self.driver = webdriver.Remote('http://127.0.0.1:4444/wd/hub', desired_caps1)
+        self.driver = webdriver.Remote('http://127.0.0.1:4444/wd/hub', desired_caps2)
 
     def tearDown(self):
         self.driver.quit()
@@ -72,9 +72,9 @@ class AndroidSimpleTest(unittest.TestCase):
         y = int(self.driver.get_window_size()['height'] * 1869 / 1920)
         logging.info(type(x))
         logging.info(x)
-
-        logging.info('wait 30 seconds')
-        time.sleep(30)
+        while input('请输入 y') != 'y':
+            logging.info('请输入 y')
+        #time.sleep(30)
         self.count = 0
         self.begin_time = datetime.datetime.now()
 
